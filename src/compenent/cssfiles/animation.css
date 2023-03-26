@@ -1,0 +1,114 @@
+.ani{
+    margin-top: 5vh;
+    margin-left: 20vh;
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+.anim{
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+    height: 20vh;
+    width: 75vh;
+}
+.text-ani{
+    color: rgb(90, 90, 90);
+    margin-top: 2vh;
+    margin-left: 20vh;
+
+}
+.text-ani h1{
+    padding: 1vh;
+    font-size: 50px;
+}
+.text-ani p{
+  
+    font-size: 35px;
+}
+
+.ani-box-1{
+width: 84vh;
+}
+.ani-box-2{
+    height: 27vh;
+    width: 79vh;
+   margin-left: 83vh;
+}
+
+.anim h1{
+    color: rgb(37, 88, 206);
+    padding: 1vh;
+    background-color: rgb(236, 243, 249);
+}
+
+.drop-ani{
+   
+  
+    background: rgb(197, 197, 197);
+   margin-top: 2vh;
+    margin-left:3vh;
+    padding: 1vh;
+   
+}
+
+.drop-ani a{
+    margin-left: 65vh;
+}
+.anim h5{
+    color: rgb(245, 75, 89);
+    font-size: 25px;
+    margin-left: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.anim h4{
+    color: rgb(128, 128, 128);
+    margin-left: 3vh;
+}
+.drop-ani span {
+    font-weight: bold;
+    padding: 1vh;
+    color: black;
+    background-color: rgb(230, 244, 255);
+}
+.cl{
+    background: rgb(150, 150, 150);
+}
+.drop-ani-2{
+   
+   
+    background: rgb(197, 197, 197);
+   margin-top: 2vh;
+    margin-left:3vh;
+    padding: 1vh;
+   
+}
+.drop-ani-2 a{
+    margin-left: 57vh;
+}
+.drop-ani-2 span {
+    font-weight: bold;
+    padding: 1vh;
+    color: black;
+    background-color: rgb(230, 244, 255);
+}
+
+.sec-box{
+    font-size: 30px;
+    margin-left: 3vh;
+    margin-top: 2vh;
+}
+
+#dropdown-basic-button{
+    font-size: 25px;
+    padding: 1vh;
+    margin-bottom: 1vh;
+}
+
+.f-l{
+    color: rgb(113, 113, 114);
+    margin-left: 2vh;
+    font-size: 25px;
+    margin-top: 1vh;
+}
+

@@ -1,0 +1,173 @@
+.sidebar{
+    font-family: sans-serif;
+    border: 1px solid rgb(57, 78, 236);
+    width: 18vh;
+    max-height: 150%;
+    height: 134%;
+    background-color: rgb(45, 89, 233);
+    opacity: 0.9;
+    padding-left: 1.5vh;
+    position: absolute;
+}
+
+.admin{
+    margin: 2vh;
+}
+
+#admin-btn{
+    border: none;
+    background: none;
+    font-weight: bolder;
+    color: white;
+    margin: 10px;
+       font-size: 40px;
+}
+.table-a{
+    text-decoration: none;
+}
+
+.sideline{
+    color: aliceblue;
+    width: 15vh;
+   
+}
+.dash-btn{
+   
+    font-size: xx-large;
+    border: none;
+    background: none;
+}
+
+
+#interface{
+    margin-top: 2vh;
+    font-size: 20px;
+    font-weight: bold;
+  color: rgb(151, 170, 236);
+}
+
+.dash-btn span{
+    color: rgb(226, 226, 226);
+    padding: 20px;
+    padding-right: 230px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+     
+}
+.bn{
+    text-decoration: none;
+    color: rgb(207, 217, 225);
+}
+.bn:hover{
+    color: rgb(255, 255, 255);
+}
+
+.dashboard button{
+   
+    background: none;
+    border: none;
+}
+.dashboard a:hover{
+  
+  color: rgb(255, 255, 255);
+}
+.dashboard span{
+    font-family: sans-serif;
+    color: rgb(205, 204, 202);
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 225px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.dashboard span:hover{
+    
+    color: rgb(255, 255, 255);
+}
+.dashboard a{
+    color: rgb(148, 147, 147);
+      text-decoration: none;
+      font-size: 30px;
+      padding: 20px;
+      padding-left: 20px;
+      padding-right: 225px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+}
+
+
+
+#dropdown-basic{
+    color: rgb(198, 215, 231);
+    display: block;
+    background: none;
+    border: none;
+    font-size: 25px;
+    padding: 1vh;
+    margin-left: 1vh;
+
+
+}
+
+
+#dropdown-basic:hover,.fa-gear:hover{
+    color: white;
+}
+
+.fa-gear{
+    color: rgb(180, 180, 180);
+    font-size: 30px;
+    padding: 5px;
+}
+
+.drop-menu{
+   
+
+    padding: 10px;
+    height: 8vh;
+    width: 15vh;
+    margin-right: 2vh;
+}
+
+.comp i{
+    margin-left: 6vh;
+}
+.custom{
+    color: rgb(171, 172, 173);
+    font-weight: bolder;
+   font-size: 20px;
+   margin-left: 2vh;
+   margin-top: 10px;
+}
+.comp-item{
+   
+ 
+   margin: 20px;
+
+ margin-left :10px;
+ margin-right: 10px;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+.i-tag{
+    margin-left: 220px;
+}
+
+#util-menu{
+   width: 14vh;
+    margin-left: 2vh;
+}
+
+.utility{
+    margin-top: 2vh;
+}
+
+.charts button{
+    color: rgb(198, 215, 231);
+   text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 25px;
+    padding: 1vh;
+
+}

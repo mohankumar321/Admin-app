@@ -1,0 +1,131 @@
+
+
+.error-container{
+  background-color: rgb(255, 255, 255);
+
+}
+.Error{
+
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+    height: 100vh;
+  
+  }
+    /*404 - Error page*/
+  
+  
+  
+    .bla{
+      color: #000000;
+      font-size: 50px;
+      margin: 35px;
+    }
+    
+  
+  .four{
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: px;
+  
+  }
+  
+  .not-found{
+    opacity: 0.8;
+    font-size: 40px;
+   
+  }
+  
+  .p-tag{
+    font-size:40px;
+    opacity: 0.6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .back{
+    text-decoration: none;
+    font-size: 45px;
+    color: rgb(21, 87, 220);
+    border: none;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .below{
+    margin: 3vh;
+  }
+  .back:hover{
+    text-decoration: underline;
+    color: none;
+  }
+  
+  /*glitch*/
+  
+  
+  .glitch-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+  }
+  
+  .glitch {
+    position: relative;
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000000;
+    letter-spacing: 5px;
+    z-index: 1;
+  }
+  
+  .glitch:before,
+  .glitch:after {
+    display: block;
+    content: attr(data-glitch);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+  }
+  
+  .glitch:before {
+    animation: glitch-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    color: rgb(6, 7, 7);
+    z-index: -1;
+  }
+  
+  .glitch:after {
+    animation: glitch-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+    color: rgb(45, 44, 45);
+    z-index: -2;
+  }
+  
+  @keyframes glitch-color {
+    0% {
+       transform: translate(0);
+    }
+  
+    20% {
+       transform: translate(-3px, 3px);
+    }
+  
+    40% {
+       transform: translate(-3px, -3px);
+    }
+  
+    60% {
+       transform: translate(3px, 3px);
+    }
+  
+    80% {
+       transform: translate(3px, -3px);
+    }
+  
+    to {
+       transform: translate(0);
+    }
+  }
+    
+

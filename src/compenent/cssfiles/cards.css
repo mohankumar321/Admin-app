@@ -1,0 +1,74 @@
+.card-container-2{
+    display: flex;
+    margin-top: 4vh;
+}
+.title-cards{
+    font-size: 50px;
+   color: rgb(102, 104, 104);
+margin-top: 3vh;
+    margin-left: 25vh;
+        
+}
+
+.cards-main{
+    margin-top: 5vh;
+    margin-left: 20vh;
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+.cards-box-1,.cards-box-2,.cards-box-3,.cards-box-4{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 20vh;
+    border: none;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.cards-box-1{
+    width: 90vh;
+    margin-bottom: 3vh;
+  
+}
+.cards-box-2{
+    width: 75vh;
+    margin-left: 88vh;
+}
+.cards-box-3{
+    width: 90vh;
+    margin-bottom: 3vh;
+}
+.cards-box-4{
+    width: 75vh;
+    margin-left: 88vh;
+}
+
+.cards-box-1 h1{
+    color: rgb(151, 151, 150);
+ padding: 1vh;
+  background-color: rgb(219, 233, 240);
+}
+.cards-box-2 h1{
+    color: rgb(70, 62, 222);
+    padding: 1vh;
+    background-color: rgb(219, 233, 240);
+}
+.cards-box-3 h1{
+    color: rgb(70, 62, 222);
+    padding: 1vh;
+    background-color: rgb(219, 233, 240);
+}
+.cards-box-4 h1{
+    color: rgb(70, 62, 222);
+    padding: 1vh;
+    background-color: rgb(219, 233, 240);
+   
+}
+
+.cards-box-1 p, .cards-box-2 p, .cards-box-3 p, .cards-box-4 p{
+    color: rgb(104, 102, 99);
+    margin-left: 2vh;
+    margin-top: 2vh;
+    font-size: 35px;
+    margin-right: 2vh;
+}

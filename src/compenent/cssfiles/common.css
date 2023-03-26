@@ -1,0 +1,335 @@
+
+
+.dash-common{
+
+ 
+    margin-left: 20vh;
+    padding: 2vh;
+    font-size: 50px;
+    color: rgb(112, 112, 113);
+}
+.card-1{
+    margin-left: 20vh;
+}
+.card-container{
+  
+    display: flex;
+}
+
+.card-row{
+    display: grid;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-weight:bold;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 2.5vh;
+   padding-top: 1vh;
+    position: relative;
+    border: none;
+    height: 7vh;
+    width: 40vh;
+
+    border-radius: 15px;
+}
+
+.card-2,.card-3,.card-4{
+    margin-left: 2vh;
+}
+
+.card-1{
+    border-left: 10px solid rgb(54, 110, 241);
+    color: rgb(54, 110, 241);
+}
+.card-2{
+    border-left: 10px solid rgb(68, 225, 162);
+    color: rgb(68, 225, 162);
+}
+.card-3{
+    border-left: 10px solid rgb(27, 199, 208);
+    color: rgb(27, 199, 208);
+    
+}
+.card-4{
+        border-left: 10px solid rgb(241, 203, 32);
+    color: rgb(241, 203, 32);
+}
+
+.card-1 h1{
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(86, 84, 84);
+}
+.card-2 h1{
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(91, 91, 91);
+}
+
+.card-3 button{
+    padding: 10px;
+ width: 29vh;
+ height: 18px;
+ border-radius: 3vh;
+background:  linear-gradient(to left, #eaeaea 50%, #09c9bc 50%);
+border: none;
+}
+.card-3 h1{
+    padding: 10px;
+    color: #4b4b4b;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.card-4 h1{
+    font-weight: bold;
+    padding: 10px;
+    color: #4b4b4b;
+}
+.chart-div{
+  
+display: flex;
+
+}
+.chart-1{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    height:35vh;
+    width: 120vh;
+    margin-left: 25vh;
+    margin-top: 8vh;
+}
+.chart-2{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    height: 35vh;
+    width: 40vh;
+    margin-left: 2vh;
+    margin-top: 8vh;
+}
+
+.proj-div{
+  
+    display: flex;
+   
+}
+.proj-1{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    height:30vh;
+    width: 90vh;
+    margin-left: 25vh;
+    margin-top: 4vh;
+}
+.proj-2{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    height: 31vh;
+    width: 70vh;
+    margin-left: 2vh;
+    margin-top: 4vh;
+}
+
+.pro-bor{
+
+    background-color: #f3f7fd;
+    font-size: 35px;
+    padding: 10px;
+    padding-left: 40px;
+    color: #3c71ef;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    border-bottom: 3px solid gainsboro;
+    height: 4vh;
+    width: 90vh;
+}
+.proj-card1 button{
+
+ width: 87vh;
+ height: 30px;
+ border-radius: 3vh;
+background:  linear-gradient(to left, #eaeaea 50%, #09c9bc 50%);
+border: none;
+}
+
+.proj-card-main{
+    margin-top: 3vh;
+    font-family: sans-serif;
+    
+}
+
+.proj-card1 h1{
+    margin-top: 1.4vh;
+    color: #4b4b4b;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+
+.crd-1 button{
+  background:   linear-gradient(to left, #eaeaea 80%, #ea3b3b 20%);
+}
+.crd-2 button{
+    background:   linear-gradient(to left, #eaeaea 60%, #f3bf03 40%);
+  }
+  .crd-3 button{
+    background:   linear-gradient(to left, #eaeaea 40%, #2777e0 60%);
+  }
+  .crd-4 button{
+    background:   linear-gradient(to left, #eaeaea 20%, #2cd7d4 80%);
+  }
+  .crd-5 button{
+    background:   linear-gradient( #19d471  0%, #15c83c 100%);
+  }
+
+
+  .crd-1 span{
+    margin-left: 75vh;
+  }
+  .crd-2 span{
+    margin-left: 76vh;
+  }
+  .crd-3 span{
+    margin-left: 73.5vh;
+  }
+  .crd-4 span{
+    margin-left: 76vh;
+  }
+  .crd-5 span{
+    margin-left: 73.3vh;
+  }
+
+  .pro-bor2{
+    background-color: #f3f7fd;
+    font-size: 35px;
+    padding: 10px;
+    padding-left: 40px;
+    color: #3c71ef;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    border-bottom: 3px solid gainsboro;
+    height: 4vh;
+    width: 70vh;
+  }
+
+  .color-pallatte{
+    margin-top: 2vh;
+    display: flex;
+  }
+
+  .pal-1{
+    
+   display: grid;
+    margin-left: 25vh;
+   
+    height: 30vh;
+    width: 90vh;
+    grid-template-columns: 50% 50%;
+
+  }
+
+  .pal-2{
+    margin-bottom: 20vh;
+    margin-left: 2vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 15vh;
+    width: 70vh;
+  }
+
+.col-box{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: #ffffff;
+    font-size: 1.5vh;
+  padding: 1vh;
+    margin: 1vh;
+   border-radius: 10px;
+    background: #09c9bc;
+}
+
+.col-box h6{
+    color: #d7d7d7;
+    font-size: x-large;
+}
+
+.primary{
+    background-color: #4864e3;
+}
+
+.success{
+    background-color: #61d368;
+}
+
+.info{
+    background-color: #2cd7d4;
+}
+
+.warning{
+    background-color: #f4c61e;
+}
+.danger{
+    background-color: #f74848;
+}
+
+.secondry{
+    background-color: #666262;
+}
+.light{
+    color: rgb(20, 20, 19);
+    background-color: #fdfeff;
+}
+.dark{
+    background-color: #2b2a2a;
+}
+
+.foot-common{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 0%;
+    text-align: center;
+  background-color: #f4f4f4;
+  padding: 2vh;
+  color: #b9bbba;
+  
+}
+.pro-bor3{
+    background-color: #f3f7fd;
+    font-size: 35px;
+    padding: 10px;
+    padding-left: 40px;
+    color: #3c71ef;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    border-bottom: 3px solid gainsboro;
+    height: 4vh;
+    width: 70vh;
+  }
+
+  .img-illust{
+    height: 18vh;
+  margin-top: 2vh;
+  margin-left: 17vh;
+  }
+
+  .paragraph{
+    color: #5f6060;
+    font-weight: lighter;
+    margin-left: 1vh;
+    padding: 10px;
+    font-size:xx-large ;
+  }
+
+  .undraw{
+font-weight: bolder;
+    margin-bottom: 10px;
+    margin-left: 1vh;
+    width: 1vh;
+    text-decoration: none;
+  }
+
+  .undraw:hover{
+    text-decoration: underline;
+  }
+
+  .da{
+    margin-top: 1vh;
+  }

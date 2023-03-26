@@ -1,0 +1,341 @@
+
+.btn-title{
+    color: rgb(86, 86, 86);
+    font-size: 50px;
+    margin-left: 25vh;
+    margin-top: 2vh;
+}
+.btn-grid{
+
+    margin-top: 2vh;
+    margin-left: 20vh;
+    display: grid;
+    grid-template-columns: 100px 100px ;
+ 
+}
+.grid{
+    margin: 2vh;
+    height: 20vh;
+    width: 82vh;
+}
+.grid-1{
+    
+    height: 100vh;
+}
+.grid-2{
+    box-shadow: -1px 3px 27px -9px rgba(0,0,0,0.86);
+
+   
+    width: 78vh;
+    margin-left: 85vh;
+    height: 50vh;
+}
+.grid-box-1{
+    box-shadow: -1px 3px 27px -9px rgba(0,0,0,0.86);
+
+  
+    height: 32vh;
+
+}
+.grid-box-2{
+    box-shadow: -1px 3px 27px -9px rgba(0,0,0,0.86);
+   
+    margin-top: 3vh;
+   
+    height: 21vh;
+    
+}
+
+.grid-box-1 h1{
+    color: rgb(62, 97, 225);
+    border-bottom: 3px solid rgb(238, 238, 238);
+    background-color: aliceblue;
+    padding: 1.2vh;
+}
+.grid-box-2 h1{
+    color: rgb(62, 97, 225);
+    border-bottom: 3px solid rgb(238, 238, 238);
+    background-color: aliceblue;
+    padding: 1.2vh;
+}
+
+.grid-2 h1{
+    color: rgb(62, 97, 225);
+    border-bottom: 3px solid rgb(238, 238, 238);
+    background-color: aliceblue;
+    padding: 1.2vh;
+}
+
+
+.grid-box-1 p{
+    margin-top: 1vh;
+    color: rgb(137, 137, 137);
+    margin-left: 3vh;
+    font-size: 35px;
+    margin-bottom: 2.5vh;
+    }
+
+    .grid-box-1 h5{
+        margin-left: 3vh;
+        font-weight:400;
+        color: rgb(216, 1, 1);
+        font-size: 32px;
+        }
+
+        .fa-facebook {
+            border-radius: 50%;
+            height: 4vh;
+            padding: 1vh;
+            color: rgb(255, 255, 255);
+            background-color: rgb(49, 69, 166);
+            font-size: 3vh;
+            margin-left: 3.5vh;
+           
+        }
+
+      
+   .ic{
+
+    margin: 1vh;
+    font-size: 3vh;
+   }
+ .c-2{
+    color: aquamarine;
+    font-size: 2.5vh;
+ }
+ .c-3{
+    font-size: 4.5vh;
+ }
+
+ .fb{
+    color: rgb(51, 85, 252);
+    margin-left: 3vh;
+ }
+ .check{
+    color: rgb(49, 209, 142);
+ }
+
+ .err{
+    padding: 15px;
+    background: #079bb5;
+    border-radius: 50%;
+    color: #ffffff;
+    rotate: 180deg;
+ }
+
+ .warn{
+    padding: 15px;
+    background: #ffb907;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+ }
+
+ .del{
+    padding: 15px;
+    background: #f30909;
+    border-radius: 50%;
+    color: #ffffff;
+ }
+
+ .grid-box-2 p{
+   
+    margin-left: 2vh;
+    padding-left: 2vh;
+    padding: 1vh;
+    font-size: 29px;
+ }
+
+ #css-btn{
+    color: #be3273;
+ }
+
+ #grid-glink{
+    border-radius: 7px;
+ 
+    margin-left: 3vh;
+    font-size: xx-large;
+    background-color: #f30909;
+    height: 2.6vh;
+    width: 75vh;
+    border: none;
+ }
+ #grid-fblink{
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 3vh;
+    font-size: xx-large;
+    background-color: #144dbe;
+    height: 2.6vh;
+    width: 75vh;
+    margin-bottom: 1vh;
+ }
+ #grid-glink:hover{
+    background-color: #e01010;
+ }
+ #grid-fblink:hover{
+    background-color: #0f45b1;
+ }
+ 
+ .split-main{
+    display: grid;
+    grid-template-columns: 100px;
+ }
+ .split-text{
+    color: #686868;
+    font-size: 27px;
+    margin-left: 1vh;
+ }
+
+ .splitbtn{
+    border-radius: 10px;
+    background: linear-gradient(to left, #4268fd 80%, #3364ad 20%); 
+    border: none;
+    margin-left: 1vh;
+margin: 20px;
+    height: 2.5vh;
+    width: 20vh;
+ }
+
+ .splitbtn span{
+
+    margin-left: 1.7vh;
+ }
+ .splitbtn-1{
+    font-weight: 600;
+    color: whitesmoke;
+    width: 15vh;
+    font-size: 30px;
+    background:  linear-gradient(to left, #3464de 80%, #1453b0 20%); 
+    font-size: 30px;
+    text-align: left;
+
+ }
+ .splitbtn-1:hover{
+    background:  linear-gradient(to left, #274cab 80%, #3c70c0 20%); 
+ }
+ .splitbtn-2{
+    font-weight: 600;
+    color: whitesmoke;
+    width: 15vh;
+    font-size: 30px;
+    background:  linear-gradient(to left, #08c469 80%, #27815a 20%); 
+    font-size: 30px;
+    text-align: left;
+
+ }
+ .splitbtn-2:hover{
+    background:  linear-gradient(to left, #0cab5e 80%, #199a62 20%); 
+ }
+ .splitbtn-3{
+    font-weight: 600;
+    color: whitesmoke;
+    width: 13vh;
+    font-size: 30px;
+    background:  linear-gradient(to left, #21bbc9 80%, #178998 20%); 
+    font-size: 30px;
+    text-align: left;
+
+ }
+ .splitbtn-3:hover{
+    background:  linear-gradient(to left, #127881 80%, #07616d 20%);
+ }
+ .splitbtn-4{
+    font-weight: 600;
+    color: whitesmoke;
+    width: 15vh;
+    font-size: 30px;
+    background:  linear-gradient(to left, #f7cf0a 80%, #a69513 20%); 
+    font-size: 30px;
+    text-align: left;
+
+ }
+ .splitbtn-4:hover{
+    background:  linear-gradient(to left, #c7a706 80%, #b1a650 20%); 
+ }
+ .splitbtn-5{
+    font-weight: 600;
+    color: whitesmoke;
+    width: 15vh;
+    font-size: 30px;
+    background:  linear-gradient(to left, #c00909 80%, #922b20 20%); 
+    font-size: 30px;
+    text-align: left;
+
+ }
+ .splitbtn-5:hover{
+    background:  linear-gradient(to left, #ea1616 80%, #b24539 20%); 
+ }
+ .splitbtn-6{
+    font-weight: 600;
+    color: whitesmoke;
+    width: 17vh;
+    font-size: 30px;
+    background:  linear-gradient(to left, #626463 80%, #474848 20%); 
+    font-size: 30px;
+    text-align: left;
+
+ }
+ .splitbtn-6:hover{
+    background:  linear-gradient(to left, #555656 80%, #6b6f6f 20%); 
+ }
+ .splitbtn-7{
+    font-weight: 600;
+    color: rgb(110, 89, 89);
+    width: 14vh;
+    font-size: 30px;
+    background:  linear-gradient(to left, #dfe4e2 80%, #c3c3c3 20%); 
+    font-size: 30px;
+    text-align: left;
+
+ }
+ .splitbtn-7:hover{
+    background:  linear-gradient(to left, #dcdcdc 80%, #c4c4c4 20%); 
+ }
+
+.check-icn{
+    color: #b0b1b1;
+    font-weight: bolder;
+    font-size: 50px;
+   margin-left: 0vh;
+}
+.check-icn-light{
+color: #696a6a;
+}
+
+.splitbtn-8{
+    font-weight:600;
+    color: #fcffff;
+    font-size: 27px;
+    height: 2.3vh;
+    width: 15vh;
+}
+.splitbtn-9{
+    font-weight:600;
+    color: #fcffff;
+    font-size: 27px;
+    height: 4vh;
+    width: 25vh;
+   
+}
+.splitbtn-8:hover{
+    background:  linear-gradient(to left, #274cab 80%, #3c70c0 20%); 
+ }
+ .splitbtn-9:hover{
+    background:  linear-gradient(to left, #274cab 80%, #3c70c0 20%); 
+ }
+ .splitbtn-9 span{
+   margin-right: 8vh;
+   
+ }
+
+.ic-8{
+ margin-right: 1vh;
+
+}
+.ic-9{
+   
+    margin-right: 1vh;
+   
+   }
+  

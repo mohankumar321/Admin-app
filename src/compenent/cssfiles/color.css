@@ -1,0 +1,184 @@
+.color-container{
+    margin-left: 25vh;
+    margin-top: 2vh;
+   
+}
+
+.color-util h1{
+font-size: 50px;
+}
+
+.color-util p{
+font-size: 35px;
+}
+
+.color-main{
+margin-top: 5vh;
+ display: grid;
+grid-template-columns: 100px 100px 100px;
+}
+
+.color-box-1{
+    text-align: left;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+height: 45vh;
+width: 50vh;
+}
+.color-box-2{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 71.9vh;
+    width: 50vh;
+    margin-left: 50vh;
+    }
+
+.color-box-3{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        height: 50vh;
+        width: 50vh;
+        margin-left: 100vh;
+        }
+        
+
+.color-box-4{
+    margin-top: 5vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 50vh;
+    margin-bottom: 5vh;
+}
+
+.color-box-1 h1,.color-box-2 h1,.color-box-3 h1,.color-box-4 h1{
+    background-color: rgb(245, 250, 254);
+    padding: 1vh;
+    color: rgb(47, 62, 220);
+
+}
+.color-box-1{}
+
+.text-gray{
+    text-align: left;
+   margin-top: 1.2vh;
+    font-size: 40px;
+    text-align: center;
+    border :none;
+   
+    height: 3.3vh;
+    width: 10vh;
+    margin-left: 4vh;
+    margin-right: 2vh;
+   
+}
+
+.tg{
+  
+  color: rgb(255, 255, 255);
+}
+.tg-four{
+  background-color: rgb(55, 57, 57);
+  margin-left: 1vh;
+  margin-right: 1vh;
+    color: rgb(255, 255, 255);
+  }
+
+  .grad-box{
+    font-size: 35px;
+    padding-top: 2vh;
+    padding-left: 3vh;
+text-align: left;
+margin-left: 1vh;
+  height: 8.3vh;
+  width: 48vh;
+  }
+
+  .bgu-1{
+    color: white;
+    margin-top: 1vh;
+    background: linear-gradient(0deg, rgb(44, 126, 232) 2%, rgb(30, 79, 192) 96%);
+  }
+  .bgu-2{
+    color: white;
+    background: linear-gradient(0deg, rgb(54, 55, 56) 2%, rgb(81, 83, 88) 96%);
+  }
+  .bgu-3{
+    color: white;
+    background: linear-gradient(0deg, rgb(41, 214, 145) 2%, rgb(18, 180, 110) 96%);
+  }
+  .bgu-4{
+    color: white;
+    background: linear-gradient(0deg, rgb(47, 217, 236) 2%, rgb(15, 192, 180) 96%);
+  }
+  .bgu-5{
+    color: white;
+    background: linear-gradient(0deg, rgb(232, 213, 44) 2%, rgb(221, 204, 12) 96%);
+  }
+  .bgu-6{
+    color: white;
+    background: linear-gradient(0deg, rgb(232, 44, 44) 2%, rgb(201, 8, 8) 96%);
+  }
+  .bgu-7{
+    background: linear-gradient(0deg, rgb(237, 243, 252) 2%, rgb(202, 206, 215) 96%);
+  }
+  .bgu-8{
+    color: white;
+    background: linear-gradient(0deg, rgb(62, 62, 62) 2%, rgb(101, 101, 102) 96%);
+  }
+
+  .cgbu{
+   
+    height: 5vh;
+    width: 48.5vh;
+    margin-left:20px;
+    margin-right: 20px;
+    background-color: azure;
+  }
+  .cgbu-1{
+    margin-top: 20px;
+    background: rgb(247, 246, 246);
+  }
+
+  .cgbu-2{
+    background: rgb(236, 236, 237);
+  }
+
+  .cgbu-3{
+    background: rgb(228, 229, 230);
+  }
+  
+  .cgbu-4{
+    background: rgb(206, 211, 216);
+  }
+
+  .cgbu-5{
+    background: rgb(187, 193, 199);
+  }
+
+  .cgbu-6{
+    color: white;
+    background: rgb(133, 139, 146);
+  }
+
+  .cgbu-7{
+    color: white;
+    background: rgb(100, 103, 106);
+  }
+
+  .cgbu-8{
+    color: white;
+    background: rgb(80, 82, 83);
+  }
+
+  .cgbu-9{
+    color: white;
+    background: rgb(55, 64, 63);
+  }
+
+.color-box-4 h3{
+    font-size: 4vh;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.color-box-4 h4{
+    font-size: 6vh;
+    text-align: center;
+    margin-top: 2vh;
+}

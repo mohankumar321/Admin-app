@@ -1,0 +1,200 @@
+
+#body{
+    background-color:none
+  }
+  
+  #card{
+   
+    display: flex;
+  height: 50vh;
+  display: grid;
+  text-align: center;
+  
+  background-color: white;
+  width: 70vh;
+  
+  }
+  #google{
+    margin: 2vh;
+    background-color: rgb(243, 63, 63);
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10vh;
+    width: 25vh;
+    height: 3.5vh;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: xx-large;
+  }
+  #google:hover{
+    background-color: rgb(226, 15, 15);
+  }
+  .g{
+    padding: 20px;
+    font-weight: bolder;
+    font-size:xx-large;
+  }
+  
+  #btn{
+    background-color: rgb(32, 91, 255);
+    border: 1px solid blue;
+    border-radius: 10vh;
+    width: 25vh;
+    height: 3.5vh;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: xx-large;
+  }
+  #btn:hover{
+    background-color: rgb(10, 14, 228);
+  }
+  .fbdiv{
+    margin: 10px;
+  }
+  #fb{
+   
+    margin: -1vh;
+    background-color: rgb(56, 104, 238);
+    border: 1px solid blue;
+    border-radius: 10vh;
+    width: 25vh;
+    height: 3.5vh;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: xx-large;
+  }
+  #fb:hover{
+    background-color: rgb(6, 58, 213);
+  }
+  .text-body{
+    margin-top: 4vh;
+  }
+  img{
+   display: flex;
+   height:50vh ;
+  
+  }
+  
+  #mail{
+  
+    border: 1px solid rgb(186, 185, 185);
+    border-radius: 28px;
+    padding: 10px;
+    margin: 10px;
+    width: 22vh;
+    height: 3.5vh;
+  }
+  
+  .input-box{
+    margin: 2vh;
+  }
+  
+  #line{
+  
+    padding: 10px;
+    margin-right: 30px;
+    color: rgb(144, 145, 145);
+  }
+  .anchor-head{
+    margin: 0.5vh;
+    color: rgb(17, 106, 231);
+   font-size: small;
+  
+  }
+  #line-two{
+   margin: 2vh;
+  }
+  #google-tag{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  #facebook-tag{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .anchor{
+  background-color: rgb(255, 255, 255);
+    font-size: 30px;
+     border: none; 
+     color: rgb(17, 128, 232);
+  }
+  .anchor:hover{
+    color: rgb(32, 50, 219);
+  }
+  .checkbox{
+   margin-right: 12vh;
+   font-size:xx-large;
+   padding: 10px;
+  
+  opacity: 0.5;
+   font-family: sans-serif;
+  
+  }
+  .largerCheckbox {
+    width: 25px;
+    height: 25px;
+    
+   
+  }
+  ::placeholder {
+   font-family: sans-serif;
+    font-size: 25px;
+    opacity: 0.9;
+  }
+  
+  
+  .card-password{
+    width:  50px;
+    margin: 10vhx;
+  }
+  
+  #para{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+    margin: 10px;
+    color: rgb(139, 139, 139);
+  }
+  
+  #card-pass{
+    position: relative;
+    display: flex;
+  height: 35vh;
+  display: grid;
+  text-align: center;
+  margin-top: 10vh;
+  background-color: white;
+  width: 65vh;
+  margin-bottom: 10vh;
+  
+  }
+  
+  .img-main{
+    height: 35vh;
+    width: 30vh;
+  }
+  
+  #forget{
+    padding: 15px;
+    margin: 10px;
+    font-size: 45px;
+    font-weight:400;
+    
+  }
+  
+  #btn-1{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(42, 85, 172);
+    border: 1px solid rgb(186, 185, 185);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 5px;
+    width: 22vh;
+    height: 3.5vh;
+  
+  }
+  

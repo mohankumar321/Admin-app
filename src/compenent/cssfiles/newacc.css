@@ -1,0 +1,122 @@
+.newacc-container{
+    background-color: rgb(22, 72, 199);
+    height: 100vh;
+}
+#btn-1:hover{
+    background-color: rgb(0, 91, 248);
+  }
+  
+  #card-new{
+    position: absolute;
+   
+  height: 50vh;
+  display: grid;
+  text-align: center;
+  margin-top: 10vh;
+  background-color: white;
+  width: 85vh;
+  margin-bottom: 10vh;
+  
+  }
+  
+  .btn-new{
+    margin: 10px;
+  margin-right: 75px;
+    background-color: rgb(32, 91, 255);
+    border: 1px solid blue;
+    border-radius: 10vh;
+    width: 40vh;
+    height: 3.5vh;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: xx-large;
+  }
+  .create{
+    padding: 15px;
+    margin: 10px;
+    font-size: 45px;
+    font-weight:400;
+  }
+  .img-new{
+    height: 50vh;
+  }
+  
+  .reg-btn{
+   
+  background-color: rgb(0, 87, 201);
+  height: 3vh;
+  }
+  .reg-btn:hover{
+  background-color: rgb(11, 97, 225);
+  }
+  .gl-btn{
+    border: 1px solid red;
+    height: 3vh;
+  background-color: rgb(239, 10, 10);
+  }
+  .gl-btn:hover{
+    background-color: rgb(188, 9, 9);
+  }
+  
+  .fb-btn{
+    border: 1px solid rgb(0, 64, 255);
+    height: 3vh;
+  background-color: rgb(19, 52, 159);
+  }
+  .fb-btn:hover{
+    background-color: rgb(7, 33, 115);
+  }
+  
+  .name{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 10px;
+  }
+  
+  .first-name{
+    margin: 1vh;
+    border-radius: 20vh;
+    border: 1px solid rgb(180, 180, 180);
+    padding: 25px;
+    width: 18vh;
+    height: 3.7vh;
+    margin-right: 1vh;
+  }
+  .last-name{
+    border-radius: 20vh;
+    border: 1px solid rgb(180, 180, 180);
+    padding: 25px;
+    width: 18vh;
+    height: 3.7vh;
+    margin-right: 4vh;
+  }
+  .new-mail{
+    margin: 1vh;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 20vh;
+    padding: 25px;
+    width: 37vh;
+    height: 3.7vh;
+    margin-right: 4vh;
+  }
+  
+  .n-password{
+    margin: 1vh;
+    border-radius: 20vh;
+    border: 1px solid rgb(180, 180, 180);
+    padding: 25px;
+    width: 18vh;
+    height: 3.7vh;
+    margin-right: 1vh;
+  }
+  .r-password{
+   border-radius: 20vh;
+    border: 1px solid rgb(180, 180, 180);
+    padding: 25px;
+    width: 18vh;
+    height: 3.7vh;
+    margin-right: 4vh;
+  }
+  
