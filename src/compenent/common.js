@@ -2,9 +2,8 @@ import React from "react";
 import Dashboard from "./dashboard";
 import SideBar from "./sidebar";
 import "./cssfiles/common.css";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
+
 import WorkIcon from '@mui/icons-material/Work';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import PendingIcon from '@mui/icons-material/Pending';
@@ -66,7 +65,7 @@ export default function Commonpage(){
         </div>
     <div className="proj-2" >
     <div className="pro-bor2">Illustrations</div>
-    <img className="img-illust" src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_posting_photo.svg"/>
+    <img className="img-illust" alt="loading" src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_posting_photo.svg"/>
     <h4 className="paragraph">Add some quality, svg illustrations to your project courtesy of unDraw, a constantly updated collection of beautiful svg images that you can use completely free and without attribution!
 <br/><br/><a className="undraw" href="https://undraw.co/">Browse Illustrations on unDraw →</a></h4>
     </div>

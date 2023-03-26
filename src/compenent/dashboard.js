@@ -1,8 +1,5 @@
 import React from "react";
 import "./cssfiles/dashboard.css"
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import SideBar from "./sidebar";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';

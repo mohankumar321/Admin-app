@@ -2,8 +2,6 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import { useHistory } from "react-router-dom";
 import "./cssfiles/forget.css"
 
@@ -20,7 +18,7 @@ return (
         <Container fluid="md" style={{paddingTop:"10vh"}}>
           <div id="card-pass">
       <Row>
-        <Col><img className="img-main" src='https://source.unsplash.com/oWTW-jNGl9I/600x800'/></Col>
+        <Col><img className="img-main" alt="loading" src='https://source.unsplash.com/oWTW-jNGl9I/600x800'/></Col>
         <Col>
         <div className='text-body'>
 

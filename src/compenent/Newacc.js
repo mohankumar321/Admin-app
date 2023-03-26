@@ -2,8 +2,6 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import { useHistory } from "react-router-dom";
 import "./cssfiles/newacc.css";
 
@@ -16,7 +14,7 @@ export default function NewAccount(){
        <Container  fluid="md" style={{paddingTop:"10vh"}}>
           <div id="card-new">
       <Row>
-        <Col><img className="img-new" src='https://source.unsplash.com/Mv9hjnEUHR4/600x800'/></Col>
+        <Col><img className="img-new" alt="loading" src='https://source.unsplash.com/Mv9hjnEUHR4/600x800'/></Col>
         <Col>
         <div className='text-body'>
         <h1 className="create">Create an Account!</h1>

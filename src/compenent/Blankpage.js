@@ -1,5 +1,5 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+
 import  "./cssfiles/blank.css";
 import SideBar from "./sidebar";
 import Dashboard from "./dashboard";
@@ -10,7 +10,7 @@ import Dashboard from "./dashboard";
    
     return(
        
-       <div><Dashboard/>
+       <div> <SideBar/><Dashboard/>
        
        <h1 className="blank">Blankpage</h1></div>
     )
