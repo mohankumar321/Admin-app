@@ -16,6 +16,7 @@ import Animationpage from './compenent/animation';
 import Borderspage from './compenent/borders';
 import Tablespage from './compenent/tables';
 import Commonpage from './compenent/common';
+import MyComponent from './compenent/redirect';
 
 
 
@@ -45,7 +46,9 @@ function App() {
 
       <Route exact path="/colors"><Colorspage/></Route>
 
-  
+      <Route path="/"><MyComponent /></Route>
+        
+
 
       <Route exact path="/animation"><Animationpage/></Route>
 
