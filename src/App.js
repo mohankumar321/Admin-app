@@ -20,16 +20,6 @@ import Commonpage from './compenent/common';
 
 
 
-
-
-
-
-
-
-
-
-
-
 function App() {
 
 

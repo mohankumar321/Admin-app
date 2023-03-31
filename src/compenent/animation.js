@@ -25,7 +25,7 @@ export default function Animationpage(){
         <h4>Navbar Dropdown Example</h4>
         <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic" className="drop-ani">
-      <span> Navbar <a href="#action-1"></a>Dropdown Button</span>
+      <span> Navbar <a href="#action">.</a>Dropdown Button</span>
       </Dropdown.Toggle>
 
       <Dropdown.Menu className="cl">
@@ -45,7 +45,7 @@ export default function Animationpage(){
         <h4>Navbar Dropdown Example</h4>
         <Dropdown>
         <Dropdown.Toggle variant="success" id="dropdown-basic" className="drop-ani-2">
-      <span> Navbar <a href="#action"></a>Dropdown Button</span>
+      <span> Navbar <a href="#action">.</a>Dropdown Button</span>
       </Dropdown.Toggle>
 
       <Dropdown.Menu className="cl">

@@ -54,13 +54,13 @@ export default function Otherspage(){
             
             <div class="dropdown-menu" 
                  aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item1" href="#">
+                <a class="dropdown-item1" href="#action">
                   Action
               </a>
-                <a class="dropdown-item1" href="#">
+                <a class="dropdown-item1" href="#action">
                   Another action
               </a>
-                <a class="dropdown-item1" href="#">
+                <a class="dropdown-item1" href="#action">
                   Something else here
               </a>
             </div>
