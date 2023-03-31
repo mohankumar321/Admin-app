@@ -1,19 +1,19 @@
 import React from "react";
-import Dashboard from "./dashboard";
-import SideBar from "./sidebar";
+
+
 import "./cssfiles/animation.css";
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
 export default function Animationpage(){
     return(
-        <div> <SideBar/> <Dashboard/>
+
         
         <div>
             <div className="text-ani">
                 <h1>Animation Utilities</h1>
                 <p>Bootstrap's default utility classes can be found on the official
-                     <a href="#">Bootstrap Documentation</a> Bootstrap Documentation page. The custom utilities below were created to extend this
+                     <a href="#action">Bootstrap Documentation</a> Bootstrap Documentation page. The custom utilities below were created to extend this
                      theme past the default utility classes built into Bootstrap's framework.</p>
             </div>
 
@@ -25,7 +25,7 @@ export default function Animationpage(){
         <h4>Navbar Dropdown Example</h4>
         <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic" className="drop-ani">
-      <span> Navbar <a></a>Dropdown Button</span>
+      <span> Navbar <a href="#action-1"></a>Dropdown Button</span>
       </Dropdown.Toggle>
 
       <Dropdown.Menu className="cl">
@@ -45,7 +45,7 @@ export default function Animationpage(){
         <h4>Navbar Dropdown Example</h4>
         <Dropdown>
         <Dropdown.Toggle variant="success" id="dropdown-basic" className="drop-ani-2">
-      <span> Navbar <a></a>Dropdown Button</span>
+      <span> Navbar <a href="#action"></a>Dropdown Button</span>
       </Dropdown.Toggle>
 
       <Dropdown.Menu className="cl">
@@ -71,48 +71,11 @@ existing opacity on an element being animated!</p>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
         
+
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        </div>
+  
        
     )
 }

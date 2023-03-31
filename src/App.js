@@ -16,7 +16,7 @@ import Animationpage from './compenent/animation';
 import Borderspage from './compenent/borders';
 import Tablespage from './compenent/tables';
 import Commonpage from './compenent/common';
-import MyComponent from './compenent/redirect';
+
 
 
 
@@ -40,36 +40,31 @@ function App() {
     <div className="App">
         <Switch>   
         
-      <Route exact path="/dashboard"><Commonpage/></Route> 
+      <Route  path="/dashboard"><Commonpage/></Route> 
       
-      <Route exact path="/tables"><Tablespage/></Route>
+      <Route  path="/tables"><Tablespage/></Route>
 
-      <Route exact path="/colors"><Colorspage/></Route>
+      <Route  path="/colors"><Colorspage/></Route>
 
-      <Route path="/"><MyComponent /></Route>
-        
+      <Route path="/animation"><Animationpage/></Route>
 
+      <Route path="/borders"><Borderspage/></Route>
 
-      <Route exact path="/animation"><Animationpage/></Route>
-
-      <Route exact path="/borders"><Borderspage/></Route>
-
-      <Route exact path="/others"><Otherspage/></Route>
+      <Route  path="/others"><Otherspage/></Route>
      
-      <Route exact path="/cards" ><Cardspage/></Route>
+      <Route  path="/cards" ><Cardspage/></Route>
 
-      <Route exact path="/buttonspage"><Buttonspage/></Route>
+      <Route  path="/buttonspage"><Buttonspage/></Route>
     
 
-         <Route exact path="/logpage">  <Loginpage/></Route>
+         <Route  path="/logpage">  <Loginpage/></Route>
 
-      <Route exact path="/blankpage"><Blankpage/></Route>
+      <Route  path="/blankpage"><Blankpage/></Route>
 
-      <Route exact path="/forgetpage"><Forgetpassword/></Route>
+      <Route  path="/forgetpage"><Forgetpassword/></Route>
 
-      <Route exact path="/register">  <NewAccount/></Route>
+      <Route  path="/register">  <NewAccount/></Route>
 
-     <Route  path="**"><Commonpage/></Route>
 
      <Route  path="/**"><Errorpage/></Route>
      
