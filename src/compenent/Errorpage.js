@@ -24,7 +24,7 @@ export default function Errorpage(){
 
 <div className="error-head below">
 <p className="p-tag">It looks like you found a glitch in the matrix...</p>
-<button onClick={()=>history.push("/dashboard")} className="back">← Back to Dashboard</button>
+<button onClick={()=>history.push("/")} className="back">← Back to Dashboard</button>
 </div>
 
 

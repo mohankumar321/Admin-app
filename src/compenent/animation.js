@@ -4,12 +4,14 @@ import React from "react";
 import "./cssfiles/animation.css";
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
+import SideBar from "./sidebar";
+import Dashboard from "./dashboard";
 
 export default function Animationpage(){
     return(
 
         
-        <div>
+        <div><SideBar/><Dashboard/>
             <div className="text-ani">
                 <h1>Animation Utilities</h1>
                 <p>Bootstrap's default utility classes can be found on the official

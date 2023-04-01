@@ -30,7 +30,7 @@ function App() {
     <div className="App">
         <Switch>   
         
-      <Route  path="/dashboard"><Commonpage/></Route> 
+        <Route exact path="/"><Commonpage/></Route> 
       
       <Route  path="/tables"><Tablespage/></Route>
 
@@ -56,9 +56,9 @@ function App() {
       <Route  path="/register">  <NewAccount/></Route>
 
 
-     <Route  path="/**"><Errorpage/></Route>
+     <Route  path="**"><Errorpage/></Route>
      
-     <Route exact path="/dashboard"><Commonpage/></Route> 
+
 
      
       

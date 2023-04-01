@@ -18,12 +18,12 @@ export default function SideBar(props){
     return (
         <div className="sidebar">
 <div className="admin"> 
-    <button id="admin-btn" onClick={()=>history.push("/dashboard")}>😉 SB ADMIN²</button>
+    <button id="admin-btn" onClick={()=>history.push("/")}>😉 SB ADMIN²</button>
     </div>
 <hr className="sideline"></hr>
 
 <div className="Tables" >
-<a className="table-a"  variant="success" id="dropdown-basic" href="/dashboard" >
+<a className="table-a"  variant="success" id="dropdown-basic" href="/" >
         <span className="fa">&#xf0e4;</span>&nbsp;
         Dashboard<i className="i-tag"></i>
       </a>
