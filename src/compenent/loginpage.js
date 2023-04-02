@@ -22,7 +22,7 @@ export default function Loginpage(){
             <div className='input-box2'>
               <div className='input-box2' ><input id="mail" placeholder='Enter Email Address' type="mail" /></div>
               <div className='input-box2'><input id="mail" placeholder='Password'  type="password" /></div>
-              <div className='checkbox'><input id="check"  value="adventure" class="largerCheckbox" type="checkbox" />&nbsp;&nbsp;Remember me</div>
+              <div className='checkbox'><input id="check"  value="adventure" className="largerCheckbox" type="checkbox" />&nbsp;&nbsp;Remember me</div>
               </div>
              <button id='btn' value="submit">Login</button>
              <hr id='line'></hr>

@@ -23,7 +23,7 @@ export default function Dashboard(){
           aria-label="Search..."
           aria-describedby="basic-addon2"
         />
-        <Button variant="outline-secondary" id="button-addon2" > <i class="fa fa-search"></i>
+        <Button variant="outline-secondary" id="button-addon2" > <i className="fa fa-search"></i>
          
         </Button>
 

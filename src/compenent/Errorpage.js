@@ -13,8 +13,8 @@ export default function Errorpage(){
         <Col>
         <div className="Error">
             <div className="error-head">
-            <div class="glitch-wrapper">
-   <div class="glitch" data-glitch="404">404</div>
+            <div className="glitch-wrapper">
+   <div className="glitch" data-glitch="404">404</div>
 </div>
 
 

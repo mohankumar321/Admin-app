@@ -28,22 +28,22 @@ export default function Otherspage(){
 
        <p>Use the .progress-sm class along with<i>.progress</i></p>
        <h3>Normal Progress bar</h3>
-       <div class="progress">
-    <div class="progress-bar"></div>
+       <div className="progress">
+    <div className="progress-bar"></div>
     
   </div>
   <div className="prog">
   <h3>Small Progress bar</h3>
-       <div class="progress">
-    <div class="progress-bar"></div></div>
+       <div className="progress">
+    <div className="progress-bar"></div></div>
     
   </div>
        </div>
 
        <div className="other-box-3"><h1>Dropdown - No Arrow</h1>
        <p>Add the <i>.no-arrow</i> class alongside the<i> .dropdown</i></p>
-       <div class="dropdown-new">
-            <button class="btn btn-secondary dropdown-toggle"
+       <div className="dropdown-new">
+            <button className="btn btn-secondary dropdown-toggle"
                     type="button"
                     id="dropdownMenuButton" 
                     data-toggle="dropdown" 
@@ -52,15 +52,15 @@ export default function Otherspage(){
                 Dropdown button (No Arrow)
             </button>
             
-            <div class="dropdown-menu" 
+            <div className="dropdown-menu" 
                  aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item1" href="#action">
+                <a className="dropdown-item1" href="#action">
                   Action
               </a>
-                <a class="dropdown-item1" href="#action">
+                <a className="dropdown-item1" href="#action">
                   Another action
               </a>
-                <a class="dropdown-item1" href="#action">
+                <a className="dropdown-item1" href="#action">
                   Something else here
               </a>
             </div>
